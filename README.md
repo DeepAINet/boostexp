@@ -1,2 +1,2 @@
-# expboost
+# boostexp
 Tree Series Algorithms Exploration.
