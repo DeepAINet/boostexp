@@ -44,14 +44,14 @@ class TreeNode{
         void init(LONG x_size, int x_dim){
             x.resize(x_size);
             std::iota(x.begin(), x.end(), 0);
-            for (LONG num: x)
-                std::cout << num << '\t';
-            std::cout << std::endl;
+//            for (LONG num: x)
+  //              std::cout << num << '\t';
+  //          std::cout << std::endl;
 
             features_remainder.resize(x_dim);
             std::iota(features_remainder.begin(), features_remainder.end(), 0);
-            for (int fid: features_remainder)
-                std::cout << fid << '\t' ;
-            std::cout << std::endl;
+    //        for (int fid: features_remainder)
+      //          std::cout << fid << '\t' ;
+        //    std::cout << std::endl;
         }
 };

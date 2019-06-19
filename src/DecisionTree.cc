@@ -7,11 +7,11 @@ using namespace std;
 
 class DecisionTree{
     protected:
-        TreeNode *root;
-        corpus *corp;
-        int num_threads;
-        int max_height=-1;
-        int max_leaf_nodes=-1;
+        TreeNode*       root;
+        corpus*         corp;
+        int             num_threads;
+        int             max_height=-1;
+        int             max_leaf_nodes=-1;
     public:
         DecisionTree(){}
 
